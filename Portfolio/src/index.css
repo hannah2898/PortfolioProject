@@ -1,0 +1,550 @@
+@import url('https://fonts.cdnfonts.com/css/randela-smitha');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+/*CSS styling for Body*/
+body{
+    background-color: #FFF8F1;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 8px;
+    margin: 0;
+    padding: 0;
+}
+/*CSS styling for Home Section*/
+#header{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.hamburger-menu{
+    display: none;
+}
+.logo{
+    font-family: 'Randela Smitha', sans-serif;
+    font-size: 2em;
+    color: #164980;
+}
+/* CSS for Navigation Section */
+#menu-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   align-items: center;
+    gap: 50px;
+    font-size: 1.5em;
+}
+#menu-items a{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#menu-items a:hover{
+    
+    color: #C23D2A;
+}
+
+/* End of Navigation */
+#home{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin: 20px;
+    margin-bottom: 0px;
+
+}
+.intro{
+    margin-top: 5%;
+    color: #164980;
+}
+.about{
+    color: #C23D2A;
+    font-size: 1.5em;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-size: 6em;
+}
+p{
+    margin: 10px;
+    margin-left: 0;
+}
+#Hanna{
+    position: relative;
+}
+#Hanna img{
+    width: 630px;
+}
+/*CSS styling for Skills Section*/
+#skills{
+    background-color: white;
+   
+}
+.skills-heading{
+    color: #FFB121;
+    font-size: 5.5em;
+    padding: 12px;
+    padding-left: 580px;
+}
+.skills-container{
+    display:flex;
+    flex-flow:row wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin:0 auto;
+}
+/*CSS styling for Work experience Section*/
+.work-heading{
+    color:#C23D2A;
+    font-size: 5.5em;
+    padding-left: 250px;
+    margin: 10px;
+}
+.instituition ,.post{
+    font-weight: bold;
+    color: #092D56;
+    margin: 0;
+}
+.date{
+    font-size: 0.75em;
+    color: #BEBEBE;
+    margin: 0;
+}
+.description{
+    color: #6E7F92;
+    margin: 0;
+}
+.work{
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    justify-content: center;
+}
+.work-exp{
+    padding: 30px;
+    padding-top: 50px;
+}
+.circle-yellow, .circle-red,.circle-blue {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.circle-yellow{
+    background-color: #FFB121;
+}
+.circle-red {
+    background-color: #C23D2A; 
+}
+.circle-blue{
+    background-color: #164980;
+}
+.dotted-line {
+    border-left: 2px dotted #C5C5C5;
+    margin-left: 10px;
+    height: 80px; /* Adjust the height as needed */
+}
+.item:nth-child(1),.item:nth-child(5){
+    display: none;
+}
+/* CSS for Latest Projects */
+#Latest-Works{
+    background-color: white;
+}
+.project > img{
+    width: 200px;
+    padding-left: 50px;
+    margin-bottom: 0px;
+}
+.project > p{
+    margin: 1px;
+}
+.projects{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.project{
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url(../Images/Pattern_low.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 230px;
+    height:180px;
+    color: white; 
+    box-shadow:  6px 6px 6px 2px #BEBEBE;
+}
+.project:hover{
+    transform:scale(1.1);
+    box-shadow:  6px 6px 6px 2px white;
+}
+.project > p > a:hover{
+   opacity: 0.5;
+}
+.project-heading{
+    font-weight: bold;
+    font-size: 1.25em;
+}
+.project-description{
+    font-size: 0.75em;
+}
+.project:nth-child(3n-2) {
+    background-color: #C23D2A;
+}
+
+.project:nth-child(3n-1) {
+    background-color: #FFB121  ;
+}
+
+.project:nth-child(3n) {
+    background-color: #164980;
+}
+.latest-heading{
+    color:#164980;
+    font-size: 5.5em;
+    padding-left: 20px;
+    margin: 10px;
+}
+.detail{
+    padding-left: 20px;
+    margin: 10px;
+}
+.buttons{
+    border: none;
+    border-radius: 8px;
+    background-color: #C23D2A;
+    color: white;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    box-shadow:  6px 6px 6px 2px #BEBEBE;
+    display: block;
+    margin: 0 auto;
+}
+.buttons:hover{
+    background-color: #842a1c;
+    box-shadow:  6px 6px 6px 2px white;
+}
+
+.button{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+/* CSS for Contact Form Section */
+#commentbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    width: 700px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow:  6px 6px 6px 2px #BEBEBE;
+    
+}
+.form-heading{
+    color:#C23D2A;
+    font-size: 4.5em;
+    padding-left: 300px;
+    margin: 10px;
+}
+.together{
+    color: #092D56;
+}
+.form{
+    padding: 30px;
+    padding-left: 350px;
+}
+#label{
+    color: #6E7F92;
+}
+.textbox{
+    border-color: #FFB121;
+    border-radius: 4px;
+    font-family:'Montserrat', sans-serif;
+    color: #6E7F92;
+}
+/* CSS for Footer Section */
+.footer{
+    color: #092D56;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border-top:  1px solid #164980;
+}
+.Copyright{
+    border-left: 1px solid #164980;
+    padding: 10px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.icon img{
+    width: 30px;
+}
+/* Media Queries */
+@media screen and (max-width:768px) {
+    #Hanna img{
+        width:480px;
+    }
+    #Hanna{
+        margin-right: -10px;
+        margin-top: 80px;
+        position: relative;
+    }
+    .logo{
+        font-size: 1.75em;
+    }
+    #home{
+        position: relative;
+    }
+    #menu-items{
+        font-size: 1.2em;
+        gap: 20px;
+        }
+    #header{
+        padding-left: 15px;
+        padding-right: 15px;
+        }
+    .intro h2{
+        font-size: 4.2em;
+        position: absolute;
+        
+    }
+    .about{
+        font-size: 1em;
+    }
+    .about p{
+        position: absolute;
+    }
+    .text1{
+        padding-bottom: 10px;
+        padding-right: 20px;
+    }
+    .text2{
+        padding-top: 80px;
+        padding-right: 20px;
+    }
+    .para1{
+        padding-top: 150px;
+        padding-right: 20px;
+    }
+    .para2{
+        padding-top: 175px;
+        padding-right: 20px;
+    }
+    /*Special Skill for Tab*/
+    .skills-heading{
+        font-size: 4.2em;
+        padding-left: 75px;
+    }
+    .skill{
+        
+        width: 250px;
+    }
+   /*Work Experience for Tab*/
+   .work-heading{
+    font-size: 4.2em;
+    padding-left: 75px;
+    text-align: center;
+    
+   }
+   .work{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    justify-content: center;
+}
+.tabview{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.item:nth-child(1),.item:nth-child(5){
+    display: block;
+}
+.item:nth-child(5)>.tabview>.item-1>.post{
+    color: #FFB121;
+    font-size: 1.75em;
+}
+.item:nth-child(2),.item:nth-child(3),.item:nth-child(4){
+    display: none;
+}
+.dotted-line {
+    height: 150px; /* Adjust the height as needed */
+}
+/*Latest Works for Tab*/
+.latest-heading{
+    font-size: 4.2em;
+}
+.projects{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.button{
+    padding-top: 50px;
+}
+/* CSS for Contact Form Section */
+#commentbox{
+    width: 500px;
+}
+.form{
+    padding-left: 80px;
+}
+.form-heading{
+    font-size: 3.7em;
+    padding-left: 20px;
+}
+}
+@media screen and (max-width:480px) {
+    /* CSS for Home Section for mobile */
+    #Hanna img{
+        width:400px;
+    }
+    #Hanna{
+        padding-top: 200px;
+        margin: auto;
+        position: relative;
+       
+    }
+    .logo{
+        font-size: 1.5em;
+    }
+
+    #menu-items{
+        display: none;
+
+        }
+
+    #header{
+        padding-left: 15px;
+        padding-right: 15px;
+        }   
+    .intro h2{
+        font-size: 3.5em;
+        position: absolute;
+        
+    }
+    .hamburger-menu {
+         padding: 10px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        gap: 20px;
+      }
+    .hamburger-menu.active {
+        top: 0;
+        margin-top: 18px;
+        margin-right: 80px;
+        transition:  1s ease;
+    }
+    
+      .menu-options{
+        margin-top: 50px;
+      }
+      .hamburger-menu.active .menu-options a:hover{
+        color: #092D56;
+      }
+      .hamburger-menu.active .menu-options a{
+        border-bottom: 1px solid white;
+      }
+      .hamburger-menu img {
+        width: 25px;
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .hamburger-menu .menu-options {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        background-color: #C23D2A;
+        border-radius: 5px;
+        width: 150px;
+        padding: 10px;
+       
+      }
+      
+      .hamburger-menu.active img {
+        transform: rotate(90deg);
+      }
+      
+      .hamburger-menu.active .menu-options {
+        display: flex;
+    
+      }
+    /* CSS for Special Skills Section for mobile */
+    .skills-heading{
+        font-size: 3.5em;
+        text-align: center;
+        padding-left: 30px;
+    }
+    .skills-container{
+       gap: 0px;
+    }
+    /* CSS for Work Experience Section for mobile */
+    .work-heading{
+        font-size: 3.5em;
+        padding-left: 30px;
+        text-align: center;
+        
+       }
+       .dotted-line {
+        height: 200px; /* Adjust the height as needed */
+    }
+    /*Latest Works for Tab*/
+.latest-heading{
+    font-size: 3em;
+    padding-left: 15px;
+}
+/* CSS for Contact Form Section */
+#commentbox{
+    width: 300px;
+}
+.form{
+    padding-top: 15px;
+    padding-left: 40px;
+}
+.form-heading{
+    font-size: 2em;
+    padding-left: 10px;
+}
+/* CSS for Footer Section */
+.footer{
+    padding: 8px;  
+}
+.Copyright{
+    border-left: 1px solid #164980;
+    font-size: 0.5em;
+    padding: 10px;
+}
+.footer-content{
+    gap: 5px;
+}
+
+.icon img{
+    width: 20px;
+}
+.footer-content>.logo>.logo{
+    font-size: 1.25em;
+}
+}
